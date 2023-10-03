@@ -19,26 +19,32 @@
     <!--header-->
     <header class="header">
         <div class="container header-container">
-            <nav class="header-navigation">
-                <a class="logo" href="./index.html">Web<span class="logo-header">Studio</span>
-                </a>
-                <ul class="navigation">
-                    <li><a class="nav-linkh" href="./index.html">Studio</a></li>
-                    <li><a class="nav-link" href="">Portfolio</a></li>
-                    <li><a class="nav-link" href="">Contacts</a></li>
-                </ul>
-            </nav>
-            <address class="header-contact">
-                <ul class="list">
-                    <li><a class="header-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="header-contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                </ul>
-            </address>
+            <div class="header-visualization">
+                <button class="window-button " type="button" data-modal=""><svg class="window-icon" width="8"
+                        height="8">
+                        <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+                    </svg></button>
+                <nav class="header-navigation">
+                    <a class="logo" href="./index.html">Web<span class="logo-header">Studio</span>
+                    </a>
+                    <ul class="navigation">
+                        <li><a class="nav-linkh" href="./index.html">Studio</a></li>
+                        <li><a class="nav-link" href="">Portfolio</a></li>
+                        <li><a class="nav-link" href="">Contacts</a></li>
+                    </ul>
+                </nav>
+                <address class="header-contact">
+                    <ul class="list">
+                        <li><a class="header-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="header-contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
+            </div>
         </div>
     </header>
     <main>
         <!--section-service-->
-        <section class="section-service">
+        <!---- <section class="section-service">
             <div class="container">
                 <h1 class="service-title">Effective Solutions for Your Business</h1>
                 <button class="service-button" type="button">Order Service
@@ -51,7 +57,7 @@
                 <h2 class="visually-hidden">How we work</h2>
                 <ul class="list-work">
                     <li class="sectiol-list">
-                        <div class="icon">
+                        <div class="iconss">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-antenna-1-1"></use>
                             </svg>
@@ -62,7 +68,7 @@
                         </p>
                     </li>
                     <li class="sectiol-list">
-                        <div class="icon">
+                        <div class="iconss">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-clock-1-1"> </use>
                             </svg>
@@ -75,7 +81,7 @@
                         </p>
                     </li>
                     <li class="sectiol-list">
-                        <div class="icon">
+                        <div class="iconss">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-diagram-1-1"></use>
                             </svg>
@@ -88,7 +94,7 @@
                         </p>
                     </li>
                     <li class="sectiol-list">
-                        <div class="icon">
+                        <div class="iconss">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-astronaut-1-2"></use>
                             </svg>
@@ -104,8 +110,8 @@
             </div>
         </section>
         <!--section-three-->
-        <section class="section-our-team">
-            <div class="container">
+        <!- <section class="section-our-team">
+            <div class="container container-our-team">
                 <h2 class="our-team-title-title">Our Team</h2>
                 <ul class="list-our-team">
                     <li class="sectiol-our-team"><img src="./images/img1.jpg" width="264" alt="Mark Guerrero">
@@ -207,91 +213,99 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        <!--section-four-->
-        <section class="section-portfolio">
-            <div class="container">
-                <h2 class="portfolio-title-title">Our Portfolio</h2>
-                <ul class="list-portfolio">
-                    <li class="list-item">
-                        <div class="visualization">
-                            <img class="sectiol-list-four" src="./images/img-1.jpg" width="360" alt="Banking App">
-                            <p class="visualization-p">- 14 Stylish and User-Friendly App Design Concepts · Task Manager
-                                App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                                · Cloud Storage App</p>
-                        </div>
-                        <div class="addition">
-                            <h3 class="work-title">Banking App</h3>
-                            <p class="work-text">App</p>
-                        </div>
-                    </li>
-                    <li class="list-item">
-                        <div class="visualization">
-                            <img class="sectiol-list-four" src="./images/img-2.jpg" width="360" alt="Cashless Payment">
-                            <p class="visualization-p">- 14 Stylish and User-Friendly App Design Concepts · Task Manager
-                                App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                                · Cloud Storage App</p>
-                        </div>
-                        <div class="addition">
-                            <h3 class="work-title">Cashless Payment</h3>
-                            <p class="work-text">Marketing</p>
-                        </div>
-                    </li>
-                    <li class="list-item">
-                        <div class="visualization">
-                            <img class="sectiol-list-four" src="./images/img-3.jpg" width="360" alt="Meditaion App">
-                            <p class="visualization-p">- 14 Stylish and User-Friendly App Design Concepts · Task Manager
-                                App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                                · Cloud Storage App</p>
-                        </div>
-                        <div class="addition">
-                            <h3 class="work-title">Meditation App</h3>
-                            <p class="work-text">App</p>
-                        </div>
-                    </li>
-                    <li class="list-item">
-                        <div class="visualization">
-                            <img class="sectiol-list-four" src="./images/img-4.jpg" width="360" alt="Taxi Service">
-                            <p class="visualization-p">- 14 Stylish and User-Friendly App Design Concepts · Task Manager
-                                App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                                · Cloud Storage App</p>
-                        </div>
-                        <div class="addition">
-                            <h3 class="work-title">Taxi Service</h3>
-                            <p class="work-text">Marketing</p>
-                        </div>
-                    </li>
-                    <li class="list-item">
-                        <div class="visualization">
-                            <img class="sectiol-list-four" src="./images/img-5.jpg" width="360"
-                                alt="Screen Illustrations">
-                            <p class="visualization-p">- 14 Stylish and User-Friendly App Design Concepts · Task Manager
-                                App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                                · Cloud Storage App</p>
-                        </div>
-                        <div class="addition">
-                            <h3 class="work-title">Screen Illustrations</h3>
-                            <p class="work-text">Design</p>
-                        </div>
-                    </li>
-                    <li class="list-item">
-                        <div class="visualization">
-                            <img class="sectiol-list-four" src="./images/img-6.jpg" width="360" alt="Online Courses">
-                            <p class="visualization-p">- 14 Stylish and User-Friendly App Design Concepts · Task Manager
-                                App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                                · Cloud Storage App</p>
-                        </div>
-                        <div class="addition">
-                            <h3 class="work-title">Online Courses</h3>
-                            <p class="work-text">Marketing</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
+            </section>
+            <!--section-four-->
+            <!-<section class="section-portfolio">
+                <div class="container">
+                    <h2 class="portfolio-title-title">Our Portfolio</h2>
+                    <ul class="list-portfolio">
+                        <li class="list-item">
+                            <div class="visualization">
+                                <img class="sectiol-list-four" src="./images/img-1.jpg" width="360" alt="Banking App">
+                                <p class="visualization-p">- 14 Stylish and User-Friendly App Design Concepts · Task
+                                    Manager
+                                    App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                                    · Cloud Storage App</p>
+                            </div>
+                            <div class="addition">
+                                <h3 class="work-title">Banking App</h3>
+                                <p class="work-text">App</p>
+                            </div>
+                        </li>
+                        <li class="list-item">
+                            <div class="visualization">
+                                <img class="sectiol-list-four" src="./images/img-2.jpg" width="360"
+                                    alt="Cashless Payment">
+                                <p class="visualization-p">- 14 Stylish and User-Friendly App Design Concepts · Task
+                                    Manager
+                                    App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                                    · Cloud Storage App</p>
+                            </div>
+                            <div class="addition">
+                                <h3 class="work-title">Cashless Payment</h3>
+                                <p class="work-text">Marketing</p>
+                            </div>
+                        </li>
+                        <li class="list-item">
+                            <div class="visualization">
+                                <img class="sectiol-list-four" src="./images/img-3.jpg" width="360" alt="Meditaion App">
+                                <p class="visualization-p">- 14 Stylish and User-Friendly App Design Concepts · Task
+                                    Manager
+                                    App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                                    · Cloud Storage App</p>
+                            </div>
+                            <div class="addition">
+                                <h3 class="work-title">Meditation App</h3>
+                                <p class="work-text">App</p>
+                            </div>
+                        </li>
+                        <li class="list-item">
+                            <div class="visualization">
+                                <img class="sectiol-list-four" src="./images/img-4.jpg" width="360" alt="Taxi Service">
+                                <p class="visualization-p">- 14 Stylish and User-Friendly App Design Concepts · Task
+                                    Manager
+                                    App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                                    · Cloud Storage App</p>
+                            </div>
+                            <div class="addition">
+                                <h3 class="work-title">Taxi Service</h3>
+                                <p class="work-text">Marketing</p>
+                            </div>
+                        </li>
+                        <li class="list-item">
+                            <div class="visualization">
+                                <img class="sectiol-list-four" src="./images/img-5.jpg" width="360"
+                                    alt="Screen Illustrations">
+                                <p class="visualization-p">- 14 Stylish and User-Friendly App Design Concepts · Task
+                                    Manager
+                                    App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                                    · Cloud Storage App</p>
+                            </div>
+                            <div class="addition">
+                                <h3 class="work-title">Screen Illustrations</h3>
+                                <p class="work-text">Design</p>
+                            </div>
+                        </li>
+                        <li class="list-item">
+                            <div class="visualization">
+                                <img class="sectiol-list-four" src="./images/img-6.jpg" width="360"
+                                    alt="Online Courses">
+                                <p class="visualization-p">- 14 Stylish and User-Friendly App Design Concepts · Task
+                                    Manager
+                                    App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                                    · Cloud Storage App</p>
+                            </div>
+                            <div class="addition">
+                                <h3 class="work-title">Online Courses</h3>
+                                <p class="work-text">Marketing</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                </section>
     </main>
     <!--footer-->
-    <footer class="footer">
+    <!--  <footer class="footer">
         <div class="container-footer">
             <div class="container-footer-logo">
                 <a class="logo-footer" href="./index.html">Web<span class="footer-span">Studio</span>
