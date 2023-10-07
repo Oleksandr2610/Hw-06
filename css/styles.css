@@ -114,7 +114,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/desc/Dark-bg@1xmob.jpg);
+    url(../images/desc/Dark-bgmob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -126,7 +126,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/desc/Dark-bg@2xmob.jpg);
+      url(../images/desc/Dark-bgmob@2x.jpg);
   }
 }
 .service-title {
@@ -1037,7 +1037,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/desc/Dark-bg@1xpi.jpg);
+      url(../images/desc/Dark-bgpla.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1049,7 +1049,7 @@ button {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/desc/Dark-bg@2xpl.png);
+        url(../images/desc/Dark-bgpla@2x.jpg);
     }
   }
 
@@ -2048,7 +2048,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/desc/Dark-bg@1dec.jpg);
+      url(../images/desc/people-office1desc.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2061,7 +2061,7 @@ button {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/desc/Dark-bg@\ 1dec@2x.jpg);
+        url(../images/desc/people-officedesc@2x.jpg);
     }
   }
 
