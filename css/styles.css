@@ -170,13 +170,23 @@ button {
 .sectiol-list:not(:last-child) {
   margin-bottom: 72px;
 }
-.contact-button .work-title {
+.contact-button {
   margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
   color: var(--NAVY-BLUE, #2e2f42);
+}
+.work-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 36px;
+
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 .work-text {
   text-align: left;
@@ -320,19 +330,21 @@ button {
 }
 
 .work-title {
-  margin-bottom: 8px;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
   color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 
 .work-text {
+  color: var(--c-primari-second);
   font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.32px;
+  font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .visualization {
@@ -1121,12 +1133,11 @@ button {
   }
 
   .work-text {
-    text-align: left;
-    color: #434455;
+    color: var(--c-primari-second);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
   }
 
   .section-our-team {
@@ -1286,10 +1297,11 @@ button {
   }
 
   .work-text {
+    color: var(--c-primari-second);
     font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.32px;
+    font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 
   .visualization {
@@ -2148,11 +2160,11 @@ button {
   }
 
   .work-text {
-    color: #434455;
+    color: var(--c-primari-second);
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 
   /* team section*/
