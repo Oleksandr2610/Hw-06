@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.12em;
-  line-height: 1.5;
+  line-height: 1.17;
   background-color: #ffffff;
   color: #434455;
 }
@@ -109,7 +109,7 @@ button {
 .section-service {
   margin: 0 auto;
   background-color: #2e2f42;
-  padding: 72px 16px;
+  padding: 72px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -178,16 +178,6 @@ button {
   letter-spacing: 0.4px;
   color: var(--NAVY-BLUE, #2e2f42);
 }
-.work-title {
-  color: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
-  margin-bottom: 8px;
-  font-size: 36px;
-
-  line-height: 1.11;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-}
 .work-text {
   text-align: left;
   color: #434455;
@@ -198,7 +188,7 @@ button {
 }
 .section-our-team {
   background-color: #f4f4fd;
-  padding: 96px 16px;
+  padding: 96px 0;
   text-align: center;
 }
 .our-team-title-title {
@@ -331,20 +321,23 @@ button {
 
 .work-title {
   color: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
+  font-family: Roboto;
   margin-bottom: 8px;
-  font-size: 36px;
+  font-size: 20px;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 
 .work-text {
-  color: var(--c-primari-second);
+  color: var(--SLATE, #434455);
+  /* Body */
+  font-family: Roboto;
   font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 
 .visualization {
@@ -570,7 +563,7 @@ button {
 }
 .menu-container-op.is-open {
   transform: translateX(0);
-  transition: all, 250ms;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-button {
@@ -586,7 +579,6 @@ button {
   min-width: 24px;
   min-height: 24px;
   display: flex;
-  align-items: center;
   justify-content: center;
   background-color: #fff;
   border: none;
@@ -699,7 +691,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-bottom: 168px;
+  margin: auto;
 }
 .form-container-name {
   margin-bottom: 8px;
@@ -739,7 +731,7 @@ button {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-  text-align: ;
+  text-align: center;
 }
 .svg-name {
   position: absolute;
@@ -959,7 +951,13 @@ button {
     flex-grow: 1;
     justify-content: center;
   }
-
+  .modal-p {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
+    text-align: left;
+  }
   .nav-link {
     color: #2e2f42;
     text-decoration: none;
@@ -1097,8 +1095,7 @@ button {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   }
   .section-work {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding: 96 0;
     background-color: #fff;
   }
 
@@ -1123,13 +1120,13 @@ button {
   }
 
   .work-title {
-    text-align: left;
-    color: #2e2f42;
+    font-family: Roboto;
     font-size: 36px;
+    font-style: normal;
     font-weight: 700;
-    line-height: 1.11;
+    line-height: 40px; /* 111.111% */
     letter-spacing: 0.72px;
-    margin-bottom: 8px;
+    text-transform: capitalize;
   }
 
   .work-text {
@@ -1340,6 +1337,7 @@ button {
     row-gap: 72px;
     margin: 0 auto;
     justify-content: flex-start;
+    padding: 0 16px;
   }
   .container-footer-logo {
     margin-bottom: 0;
@@ -2125,7 +2123,7 @@ button {
 
   .section-work {
     background-color: #fff;
-    padding: 120px;
+    padding: 120px 0;
   }
 
   .icon {
@@ -2150,19 +2148,10 @@ button {
     gap: 24px;
   }
 
-  .work-title {
-    color: #2e2f42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
-    margin-bottom: 8px;
-  }
-
   .work-text {
     color: var(--c-primari-second);
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
@@ -2442,7 +2431,13 @@ button {
     background-color: #31d0aa;
     border-radius: 50%;
   }
-
+  .modal-p {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
+    text-align: left;
+  }
   .modal {
     margin-left: auto;
   }
